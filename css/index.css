@@ -137,22 +137,43 @@ button:hover{
 @media(max-width:500px){
     nav{
         width: 40%;
-
     }
-    
     nav a{
         font-size: 1.5rem;
-        /* padding-left: 6%;
-        padding-right: 6%; */
     }
     nav span{
         border-left:2px solid #626262;
-    
     }
-    
+    h1{
+        font-size: 4.5rem;
+    }
     .title-container div{
         width:100%;
         height:40vh;
         background-size: cover;
+        margin-bottom: 2%;
+    }
+    .title-container hr{
+        width:100%;
+    }
+    .artists-container{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .artist{
+        width: 100%;
+        margin-left: 25%;
+        margin-right: 25%;
+        justify-content: space-around;
+    }
+    .artist img{
+        height:20rem;
+    }
+    .artist a{
+        font-size: 1.8rem;
+    }
+    .bio{
+        font-size: 1rem;
+        margin: 4% 0;
     }
 }
